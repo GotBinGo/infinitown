@@ -3742,7 +3742,7 @@
                     $("body").removeClass("grabbing");
                 });
                 this.inputManager.on("mousewheel", function(value) {
-                    this.camera.updateHeight(value);
+                    // this.camera.updateHeight(value);
                 }, this);
                 this.inputManager.on("pinchstart", function() {
                     /** @type {number} */
